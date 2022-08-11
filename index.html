@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background-color: red; */
+        }
+        .wrap{
+            width: 80%;
+            height: 100vh;
+            background-color: aliceblue;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .header{
+            width: 80%;
+            height: 100px;
+            /* background-color: aqua; */
+            display: flex;
+            flex-direction: column;
+        }
+        .up-header{
+            width: 100%;
+            height: 50px;
+        }
+        .content-header{
+            width: 100%;
+            height: 40px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color:#333;
+        }
+        .header-help--block{
+            width: 60%;
+            height: 50px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        .content{
+            width: 80%;
+            height: 70%;
+            /* background-color: #333; */
+            display: flex;
+            flex-direction: row;
+
+        }
+        .left{
+            width: 30%;
+            height: 100%;
+            background-color: aliceblue;
+        }
+        .menu-block{
+            width: 200px;
+            height: 250px;
+            /* background-color: red; */
+            border: solid 2px #333;
+
+        }
+        .row{
+            width: 100%;
+            height: 16.666666%;
+            border: solid 1px #333;
+        }
+        .tre{
+            margin-left: 20px;
+        }
+        .right{
+            width: 70%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .img-block{
+            width: 400px;
+            height: 250px;
+            /* background-color: red; */
+            /* box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+             */
+             border: solid 1px #333;
+        }
+        .p-block{
+            width: 600px;
+            margin: 20px;
+        }
+        .footer{
+            width: 80%;
+            height: 40px;
+            background-color:grey;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .left-footer{
+
+        }
+        .fta{
+            margin-left: 20px;
+        }
+        .right-footer{
+            margin-right: 25px;
+        }
+        img{
+            width: 398px;
+            height: 248px;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="wrap">
+        <div class="header">
+            <div class="up-header">
+                <h1>  Fitness </h1>
+            </div>
+            <div class="content-header">
+                <div class="header-help--block">
+                    <a href="#">Головна</a>
+                    <a href="#">Товари</a>
+                    <a href="#">Про нас</a>
+                    <a href="#">Контакти</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="left">
+                <div class="menu-block">
+                    <div class="row">
+                        <p class="tre">Ноутбуки</p>
+                    </div>
+                  
+                    <div class="row"><p class="tre">Планшети</p></div>
+                    
+                    <div class="row"><p class="tre">Телефони</p></div>
+                    
+                    <div class="row"><p class="tre">Телевізори</p></div>
+                   
+                    <div class="row"><p class="tre">Побутова техніка</p></div>
+                   
+                    <div class="row"><p class="tre">Автотовари</p></div>
+                </div>
+               
+            </div>
+            <div class="right">
+                <div class="img-block">
+                    <img src="t.jpg" alt="">
+                </div>
+                <div class="p-block">
+                    <p>Lorem, ipsum dolor sit ametconsectetur adipisicing elit. Corrupti dicta praesentium expedita labore magnam inventore porro neque, culpa doloribus deserunt, ipsa similique odio officiis nesciunt totam. Nulla qui sint cum totam dolorem, quasi reiciendis id quisquam voluptates similique iusto laboriosam ducimus labore tempore beatae aut aperiam eligendi itaque porro voluptas perspiciatis. Autem, impedit et, aliquam debitis odio distinctio assumenda similique reiciendis dolorem animi cum sunt reprehenderit perspiciatis ipsam ad eveniet, sint numquam ducimus eaque! Vel, veniam iure? Eligendi consequuntur eum ipsam, tempora pariatur impedit dolor  nemo aliquam eos. Vitae consectetur quos sapiente accusamus praesentium rem eius qui ullam tenetur nulla.</p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="left-footer">
+                <a class="fta" href="#">Головна</a>
+            <a class="fta" href="#">Товари</a>
+            <a class="fta" href="#">Про нас</a>
+            <a class="fta" href="#">Контакти</a>
+            </div>
+            <div class="right-footer">
+                2022 Creator IT Academy
+            </div>
+        </div>
+        
+    </div>
+</div>
+</body>
+</html>
